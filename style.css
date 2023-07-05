@@ -1,27 +1,13 @@
-h1{
-    background-color: aqua;
-
-}
-p{
-    width: 400px;
-    background-color: rebeccapurple;
-
-}
-div{
-    width: 500px;
-    height: 400px;
-    background-color: brown;
-    display: inline-block;
-
-}
-.box{
-    width: 600px;
-    height: 200px;
-    background-color: rosybrown;
-    margin: 56px 100px;
-
-}
-.box,h1{
-    color: aquamarine;
+nav{
+    border: 1px solid red;
+    text-align: center;
     font-style: italic;
+    margin-bottom: 23px;
 }
+.hero{
+    height: 300px;
+    border: 2px solid blueviolet;
+   background-color: rgb(236, 211, 177);
+
+}
+
