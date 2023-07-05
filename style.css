@@ -11,4 +11,17 @@ div{
     width: 500px;
     height: 400px;
     background-color: brown;
+    display: inline-block;
+
+}
+.box{
+    width: 600px;
+    height: 200px;
+    background-color: rosybrown;
+    margin: 56px 100px;
+
+}
+.box,h1{
+    color: aquamarine;
+    font-style: italic;
 }
