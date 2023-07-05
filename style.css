@@ -5,4 +5,10 @@ h1{
 p{
     width: 400px;
     background-color: rebeccapurple;
+
+}
+div{
+    width: 500px;
+    height: 400px;
+    background-color: brown;
 }
