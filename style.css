@@ -1,34 +1,71 @@
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: black;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.cv{
+    width: 185px;
+}
+
+.list-item{
+    color: white;
+    display: flex;
+   
+
+    
+}
+.list-item,li{
+    list-style: none;
+    margin-right: 13px;
+    font-size: 23px;
+}
+.banner{
     height: 100vh;
-    justify-content: center;
+  
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    background-image: url("images/background.png");
+   background-color: rgb(29, 28, 28);
 }
-.box{
-    width: 750px;
-    height: 500px;
-    border: 2px solid black;
-    margin: 0px 0px 0px 0px;
-    background-image: linear-gradient(rgb(228, 66, 66), rgb(135, 135, 19));
-    padding-inline-start: 0px;
+.description,h1{
+    color: white;
+    font-size: 45px;
     
-     display: flex;
-    justify-content: space-between; 
 }
-
-
-.cont{
-     width: 200px;
-     height: 123px;
-     margin-bottom: 5px;
-     background-color: rosybrown;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 74px;
-    color: rgb(60, 54, 63);
-    box-shadow: 13px 13px 13px rgb(83, 74, 73);
+.description,p{
+    font-size: medium;
+}
+button{
+    background-color: rgb(238, 29, 5);
+    border: none;
+    margin-top: 12px;
+    padding: 12px;
+    color: aliceblue;
     border-radius: 4px;
-    
-
+}
+.About{
+    background-color:white;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.About-img,img{
+    width: 400px;
+}
+.Lorem{
+    color: black;
+}
+.us{
+    color: rgb(10, 9, 9);
+    text-align: center;
+    background-color: white;
+    padding: 15px ;
 }
