@@ -50,6 +50,9 @@ button{
     color: aliceblue;
     border-radius: 4px;
 }
+button:hover{
+    background-color: green;
+}
 .About{
     background-color:white;
     height: 70vh;
