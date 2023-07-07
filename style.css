@@ -73,29 +73,40 @@ button:hover{
     background-color: white;
     padding: 15px ;
 }
+.servis-container{
+    background-image: url(images/background.png);
+    background-color: rgb(45, 41, 41);
+    /* height: 80vh; */
+    padding: 50px;
+
+}
+.services{
+    text-align: center;
+    padding: 15px;
+}
 .box-container{
-   background-image: url(images/background.png);
+   /* background-image: url(images/background.png);
    background-color: rgb(45, 41, 41);
-   height: 80vh;
+   height: 80vh; */
    display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-.box-container{
     
 }
+
+
 .cad-container{
-    background-color: rgb(72, 63, 63);
+    background-color: rgb(0, 0, 0);
+    box-shadow:  4px 2px 105px gray;
     width: 300px;
     height: 300px;
     /* border: 2px solid rgb(153, 53, 51); */
     border-radius: 5px;
-  
+  text-align: center;
     padding: 14px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
 }
 .box-1,h2, p{
     color: white;
